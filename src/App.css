@@ -1,0 +1,50 @@
+body {
+    font-family: 'Gill Sans Condensed Bold', sans-serif;
+  }
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Pokecard {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  
+  .Pokecard h2 {
+    color: blue;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .Pokecard img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .Pokecard p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .Pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add some spacing between cards */
+  }
+  
+  
