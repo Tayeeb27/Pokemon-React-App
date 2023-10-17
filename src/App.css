@@ -1,50 +1,97 @@
 body {
-    font-family: 'Gill Sans Condensed Bold', sans-serif;
-  }
-h1{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
+  font-family: 'Gill Sans Condensed Bold', sans-serif;
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .Pokecard {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    width: 150px;
-    height: 200px;
-    text-align: center;
-    background-color: #f3f3f3;
-    border-radius: 10px;
-    display: flex; /* Use flexbox for centering */
-    flex-direction: column; /* Stack children vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-  }
-  
-  .Pokecard h2 {
-    color: blue;
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  .Pokecard img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  
-  .Pokecard p {
-    font-size: 16px;
-    margin: 0;
-    font-weight: bold;
-  }
-  
-  .Pokedex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; /* Add some spacing between cards */
-  }
-  
-  
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 260px;
+  text-align: center;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pokecard h2 {
+  color: blue;
+  font-size: 24px;
+  margin: 0;
+}
+
+.Pokecard img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.Pokecard p {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.Pokecard ul {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left:0px;
+}
+
+.Pokecard li {
+  /* You can add additional styles for individual <li> elements here */
+}
+
+.Pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Add some spacing between cards */
+}
+
+.pokemon-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.pokemon-form input {
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.pokemon-form button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pokemon-form button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:10px;
+}
